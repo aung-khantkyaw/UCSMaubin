@@ -1,0 +1,6 @@
+D:\UCS - MUB\CS-Course\CS-Course\bin\Debug\CS_Course.exe
+D:\UCS - MUB\CS-Course\CS-Course\bin\Debug\CS_Course.pdb
+D:\UCS - MUB\CS-Course\CS-Course\obj\Debug\CS-Course.csproj.AssemblyReference.cache
+D:\UCS - MUB\CS-Course\CS-Course\obj\Debug\CS-Course.csproj.CoreCompileInputs.cache
+D:\UCS - MUB\CS-Course\CS-Course\obj\Debug\CS_Course.exe
+D:\UCS - MUB\CS-Course\CS-Course\obj\Debug\CS_Course.pdb

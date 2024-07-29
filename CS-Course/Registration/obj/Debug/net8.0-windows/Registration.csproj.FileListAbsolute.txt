@@ -1,0 +1,17 @@
+D:\UCS - MUB\CS-Course\Registration\bin\Debug\net8.0-windows\Registration.exe
+D:\UCS - MUB\CS-Course\Registration\bin\Debug\net8.0-windows\Registration.deps.json
+D:\UCS - MUB\CS-Course\Registration\bin\Debug\net8.0-windows\Registration.runtimeconfig.json
+D:\UCS - MUB\CS-Course\Registration\bin\Debug\net8.0-windows\Registration.dll
+D:\UCS - MUB\CS-Course\Registration\bin\Debug\net8.0-windows\Registration.pdb
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.Form1.resources
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.csproj.GenerateResource.cache
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.AssemblyInfoInputs.cache
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.AssemblyInfo.cs
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.csproj.CoreCompileInputs.cache
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.sourcelink.json
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.dll
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\refint\Registration.dll
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.pdb
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\Registration.genruntimeconfig.cache
+D:\UCS - MUB\CS-Course\Registration\obj\Debug\net8.0-windows\ref\Registration.dll

@@ -1,0 +1,17 @@
+D:\UCS - MUB\CS-Course\Login\bin\Debug\net8.0-windows\Login.exe
+D:\UCS - MUB\CS-Course\Login\bin\Debug\net8.0-windows\Login.deps.json
+D:\UCS - MUB\CS-Course\Login\bin\Debug\net8.0-windows\Login.runtimeconfig.json
+D:\UCS - MUB\CS-Course\Login\bin\Debug\net8.0-windows\Login.dll
+D:\UCS - MUB\CS-Course\Login\bin\Debug\net8.0-windows\Login.pdb
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.Login.resources
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.csproj.GenerateResource.cache
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.AssemblyInfoInputs.cache
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.AssemblyInfo.cs
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.csproj.CoreCompileInputs.cache
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.sourcelink.json
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.dll
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\refint\Login.dll
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.pdb
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\Login.genruntimeconfig.cache
+D:\UCS - MUB\CS-Course\Login\obj\Debug\net8.0-windows\ref\Login.dll
