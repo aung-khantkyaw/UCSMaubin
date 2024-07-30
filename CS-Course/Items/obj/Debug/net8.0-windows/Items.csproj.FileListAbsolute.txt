@@ -1,0 +1,17 @@
+D:\UCS - MUB\CS-Course\Items\bin\Debug\net8.0-windows\Items.exe
+D:\UCS - MUB\CS-Course\Items\bin\Debug\net8.0-windows\Items.deps.json
+D:\UCS - MUB\CS-Course\Items\bin\Debug\net8.0-windows\Items.runtimeconfig.json
+D:\UCS - MUB\CS-Course\Items\bin\Debug\net8.0-windows\Items.dll
+D:\UCS - MUB\CS-Course\Items\bin\Debug\net8.0-windows\Items.pdb
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.Form1.resources
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.csproj.GenerateResource.cache
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.AssemblyInfoInputs.cache
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.AssemblyInfo.cs
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.csproj.CoreCompileInputs.cache
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.sourcelink.json
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.dll
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\refint\Items.dll
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.pdb
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\Items.genruntimeconfig.cache
+D:\UCS - MUB\CS-Course\Items\obj\Debug\net8.0-windows\ref\Items.dll
