@@ -9,8 +9,7 @@ namespace Registration
 
         private void btnInsert_Click(object sender, EventArgs e)
         {
-            dtp1.Format = DateTimePickerFormat.Custom;
-            dtp1.CustomFormat = "dd-MM-yyyy";
+            
             String gender = string.Empty;
             if (rdoMale.Checked)
             {
@@ -28,7 +27,7 @@ namespace Registration
             }
             else
             {
-                MessageBox.Show("Please Enter Data Completely");
+                MessageBox.Show("Please Enter Data Completely", "Warning", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             }
 
             txtId.Clear();
@@ -39,6 +38,17 @@ namespace Registration
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void dtp1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dtp1.Format = DateTimePickerFormat.Custom;
+            dtp1.CustomFormat = "MM/dd/yy HH:MM:ss";
         }
     }
 }

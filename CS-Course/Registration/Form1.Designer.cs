@@ -74,6 +74,7 @@
             dtp1.Name = "dtp1";
             dtp1.Size = new Size(265, 23);
             dtp1.TabIndex = 12;
+            dtp1.ValueChanged += dtp1_ValueChanged;
             // 
             // cboYear
             // 
@@ -226,6 +227,7 @@
             Controls.Add(panel1);
             Name = "Form1";
             Text = "Registration";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

@@ -30,10 +30,14 @@ namespace ResultForm
                     txt2.Clear();
                     txt3.Clear();
                 }
+                else
+                {
+                    MessageBox.Show("Please Enter Data Completely", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
             }
         }
     }

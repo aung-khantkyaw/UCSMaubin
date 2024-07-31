@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\UCS - MUB\\CS-Course\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2C6F873-8D8E-4706-88FB-A669D4826B8A}|Items\\Items.csproj|d:\\ucs - mub\\cs-course\\items\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2C6F873-8D8E-4706-88FB-A669D4826B8A}|Items\\Items.csproj|solutionrelative:items\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2C6F873-8D8E-4706-88FB-A669D4826B8A}|Items\\Items.csproj|d:\\ucs - mub\\cs-course\\items\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2C6F873-8D8E-4706-88FB-A669D4826B8A}|Items\\Items.csproj|solutionrelative:items\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F9FF82-096C-4245-9E64-9EBFE272C48C}|ResultForm\\ResultForm.csproj|d:\\ucs - mub\\cs-course\\resultform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F9FF82-096C-4245-9E64-9EBFE272C48C}|ResultForm\\ResultForm.csproj|solutionrelative:resultform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75F9FF82-096C-4245-9E64-9EBFE272C48C}|ResultForm\\ResultForm.csproj|d:\\ucs - mub\\cs-course\\resultform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{75F9FF82-096C-4245-9E64-9EBFE272C48C}|ResultForm\\ResultForm.csproj|solutionrelative:resultform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2C6F873-8D8E-4706-88FB-A669D4826B8A}|Items\\Items.csproj|d:\\ucs - mub\\cs-course\\items\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6F873-8D8E-4706-88FB-A669D4826B8A}|Items\\Items.csproj|solutionrelative:items\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +18,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\Items\\Form1.cs",
               "RelativeDocumentMoniker": "Items\\Form1.cs",
               "ToolTip": "D:\\UCS - MUB\\CS-Course\\Items\\Form1.cs",
               "RelativeToolTip": "Items\\Form1.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCUAAAAJAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAawCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T04:35:39.4Z",
+              "WhenOpened": "2024-07-31T04:18:20.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\Items\\Form1.cs",
               "RelativeDocumentMoniker": "Items\\Form1.cs",
               "ToolTip": "D:\\UCS - MUB\\CS-Course\\Items\\Form1.cs [Design]",
               "RelativeToolTip": "Items\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T04:31:26.016Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\ResultForm\\Form1.cs",
-              "RelativeDocumentMoniker": "ResultForm\\Form1.cs",
-              "ToolTip": "D:\\UCS - MUB\\CS-Course\\ResultForm\\Form1.cs",
-              "RelativeToolTip": "ResultForm\\Form1.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCMAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T03:47:15.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\ResultForm\\Form1.cs",
-              "RelativeDocumentMoniker": "ResultForm\\Form1.cs",
-              "ToolTip": "D:\\UCS - MUB\\CS-Course\\ResultForm\\Form1.cs [Design]",
-              "RelativeToolTip": "ResultForm\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T03:40:33.27Z",
+              "WhenOpened": "2024-07-31T04:18:14.514Z",
               "EditorCaption": " [Design]"
             }
           ]

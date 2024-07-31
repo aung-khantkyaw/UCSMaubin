@@ -32,14 +32,14 @@
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            txt1 = new TextBox();
-            txt2 = new TextBox();
-            txt3 = new TextBox();
             btnReult = new Button();
+            txt3 = new TextBox();
+            txt2 = new TextBox();
+            txt1 = new TextBox();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -80,67 +80,6 @@
             panel2.Size = new Size(527, 350);
             panel2.TabIndex = 1;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(99, 105);
-            label1.Name = "label1";
-            label1.Size = new Size(318, 65);
-            label1.TabIndex = 0;
-            label1.Text = "Exam Result";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(85, 60);
-            label2.Name = "label2";
-            label2.Size = new Size(58, 21);
-            label2.TabIndex = 0;
-            label2.Text = "Mark1";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(85, 134);
-            label3.Name = "label3";
-            label3.Size = new Size(58, 21);
-            label3.TabIndex = 1;
-            label3.Text = "Mark2";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(85, 208);
-            label4.Name = "label4";
-            label4.Size = new Size(58, 21);
-            label4.TabIndex = 2;
-            label4.Text = "Mark3";
-            // 
-            // txt1
-            // 
-            txt1.Location = new Point(235, 62);
-            txt1.Name = "txt1";
-            txt1.Size = new Size(197, 23);
-            txt1.TabIndex = 3;
-            // 
-            // txt2
-            // 
-            txt2.Location = new Point(235, 136);
-            txt2.Name = "txt2";
-            txt2.Size = new Size(197, 23);
-            txt2.TabIndex = 4;
-            // 
-            // txt3
-            // 
-            txt3.Location = new Point(235, 210);
-            txt3.Name = "txt3";
-            txt3.Size = new Size(197, 23);
-            txt3.TabIndex = 5;
-            // 
             // btnReult
             // 
             btnReult.BackColor = SystemColors.Highlight;
@@ -154,6 +93,67 @@
             btnReult.UseVisualStyleBackColor = false;
             btnReult.Click += btnReult_Click;
             // 
+            // txt3
+            // 
+            txt3.Location = new Point(235, 210);
+            txt3.Name = "txt3";
+            txt3.Size = new Size(197, 23);
+            txt3.TabIndex = 5;
+            // 
+            // txt2
+            // 
+            txt2.Location = new Point(235, 136);
+            txt2.Name = "txt2";
+            txt2.Size = new Size(197, 23);
+            txt2.TabIndex = 4;
+            // 
+            // txt1
+            // 
+            txt1.Location = new Point(235, 62);
+            txt1.Name = "txt1";
+            txt1.Size = new Size(197, 23);
+            txt1.TabIndex = 3;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(85, 208);
+            label4.Name = "label4";
+            label4.Size = new Size(58, 21);
+            label4.TabIndex = 2;
+            label4.Text = "Mark3";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(85, 134);
+            label3.Name = "label3";
+            label3.Size = new Size(58, 21);
+            label3.TabIndex = 1;
+            label3.Text = "Mark2";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(85, 60);
+            label2.Name = "label2";
+            label2.Size = new Size(58, 21);
+            label2.TabIndex = 0;
+            label2.Text = "Mark1";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(99, 105);
+            label1.Name = "label1";
+            label1.Size = new Size(318, 65);
+            label1.TabIndex = 0;
+            label1.Text = "Exam Result";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -164,7 +164,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "ResultForm";
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
