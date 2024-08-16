@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Session Servlet</title>
+</head>
+<body>
+ <form action="StudentServlet" method="get">
+ <h2>Student Registration</h2>
+ <table>
+   <tr>
+     <td>Name:</td>
+     <td><input type="text" name="txtName"/></td>
+   </tr>
+   <tr>
+     <td>Gender:</td>
+     <td><input type="radio" name="rdoGender" value="Male" checked="checked"/>Male
+     	 <input type="radio" name="rdoGender" value="Female"/>Female
+     </td>
+   </tr>
+   <tr>
+     <td>NRC:</td>
+     <td><input type="text" name="txtNrc"/></td>
+   </tr>
+   <tr>
+     <td>Father Name:</td>
+     <td><input type="text" name="txtFname"/></td>
+   </tr>
+   <tr>
+     <td>Address:</td>
+     <td><textarea rows="3" cols="20" name="txtArea"></textarea></td>
+   </tr>
+   <tr>
+     <td>Phone:</td>
+     <td><input type="text" name="txtPhone"/></td>
+   </tr>
+   <tr>
+     <td colspan="2"><center><input type="submit" value="Submit"/></center></td>     
+   </tr>
+   
+ </table>
+ </form>
+</body>
+</html>

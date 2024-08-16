@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+  	<servlet-name>StuData</servlet-name>
+  	<servlet-class>data.StuData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StuData</servlet-name>
+  	<url-pattern>/form</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|solutionrelative:studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|d:\\ucs - mub\\cs-course\\studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|D:\\UCS - MUB\\CS-Course\\studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|solutionrelative:studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "StudentRecordForm\\Form1.cs",
               "ToolTip": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\Form1.cs",
               "RelativeToolTip": "StudentRecordForm\\Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCsAAAAWAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T11:14:43Z",
               "EditorCaption": ""
@@ -46,21 +46,19 @@
               "ToolTip": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\Form1.cs [Design]",
               "RelativeToolTip": "StudentRecordForm\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T11:14:28.046Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-05T11:14:28.046Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StudentRecordForm",
+              "Title": "StudentRecordForm.csproj",
               "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\StudentRecordForm.csproj",
               "RelativeDocumentMoniker": "StudentRecordForm\\StudentRecordForm.csproj",
               "ToolTip": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\StudentRecordForm.csproj",
               "RelativeToolTip": "StudentRecordForm\\StudentRecordForm.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-05T11:14:17.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T11:14:17.075Z"
             }
           ]
         }

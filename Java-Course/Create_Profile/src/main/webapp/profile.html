@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create Profile</title>
+</head>
+<body>
+<form action="RegistrationServlet" method="get">
+    <h2>
+        <center>Create Profile</center>
+    </h2>
+    <table align="center">
+        <tr>
+            <td>User Name :</td>
+            <td><input type="text" name="txtName"></td>
+        </tr>
+        <tr>
+            <td>Password :</td>
+            <td><input type="password" name="txtPassword"></td>
+        </tr>
+        <tr>
+            <td>Gender : </td>
+            <td>
+                <input type="radio" name="rdoGender" value="Male" checked>Male
+                <input type="radio" name="rdoGender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Select a Country</td>
+            <td>
+                <select name="country">
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="China">China</option>
+                    <option value="Baku">Baku</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>About You :</td>
+            <td><textarea name="txtAboutYou"></textarea></td>
+        </tr>
+        <tr>
+            <td>Community</td>
+            <td><input type="text" name="community"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <input type="submit" value="Submit">
+                </center>
+            </td>
+        </tr>
+    </table>
+</form>
+<form action="AllDataServlet" method="get">
+    <table align="center">
+        <tr>
+            <td colspan="2">
+                <center>
+                    <input type="submit" value="All Data">
+                </center>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>Multiply</servlet-name>
+		<servlet-class>multiple.Multiply</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Multiply</servlet-name>
+		<url-pattern>/multiple</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+:root {
+    --inputColor: black;
+    --spacer: 0.5rem;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.header{
+    text-align: center;
+}
+form>*+* {
+    margin-top: var(--spacer);
+}
+.form-item>*+* {
+    margin-top: var(--spacer);
+}
+label,
+input{
+    font: 1.2rem monospace;
+    color: var(--inputColor);
+}
+input {
+    padding: 0.75rem 4rem 0.45rem 0.75rem;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+}

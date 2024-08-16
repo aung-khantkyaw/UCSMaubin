@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Score</title>
+</head>
+<body>
+  <h1 align="center">Score Calculator</h1>
+  <form action="ScoreServlet" method="get">
+  <table align="center">
+  <tr>
+    <td>Player Name:</td>
+    <td><input type="text" name="pname"></td>
+  </tr>
+  <tr>
+    <td>First Score:</td>
+    <td><input type="text" name="fscore"></td>
+  </tr>
+  <tr>
+    <td>Second Score:</td>
+    <td><input type="text" name="sscore"></td>
+  </tr>
+  <tr>
+    <td>Third Score:</td>
+    <td><input type="text" name="tscore"></td>
+  </tr>
+  <tr>
+    <td>Category:</td>
+    <td><select name="category">
+        <option value="Open">Open</option>
+        <option value="Junior">Junior</option>
+        <option value="Senior">Senior</option>
+       </select>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" name="Add" value="Add"><br></td>
+  </tr>
+  </table>
+  </form>
+</body>
+</html>

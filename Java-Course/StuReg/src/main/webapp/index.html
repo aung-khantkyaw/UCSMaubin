@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UCS-Mub</title>
+<link href="/StuReg/BOOTSTRAP/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="col-md-6 m-auto">
+		<h4 class="my-4 text-center">University of Computer Studies,
+			Maubin</h4>
+		<hr class="my-4">
+		<form class="needs-validation" method="get" action="form" novalidate>
+			<div class="row g-3">
+
+				<div class="col-12">
+					<label for="stuname" class="form-label">Student Name</label> <input
+						type="text" class="form-control" id="stuname" name="name"
+						placeholder="Student Name" required>
+				</div>
+
+				<div class="col-md-3">
+					<label for="roll" class="form-label">Roll No</label> <input
+						type="text" class="form-control" id="roll" name="roll"
+						placeholder="MUB-XXXX" required>
+				</div>
+
+				<div class="col-md-3">
+					<label for="year" class="form-label">Year</label> <select
+						class="form-select" id="year" name="year" required>
+						<option value="year">Choose...</option>
+						<option value="First">First Year</option>
+						<option value="Second">Second Year</option>
+						<option value="Third">Third Year</option>
+						<option value="Fourth">Fourth Year</option>
+						<option value="Fifth">Fifth Year</option>
+					</select>
+				</div>
+
+				<div class="col-md-6">
+					<label for="Major" class="form-label">Major</label>
+					<div class="row g-1">
+						<div class="form-check col-md-6">
+							<input type="radio" class="form-check-input" id="major"
+								name="major" value="Computer Science" required> <label
+								class="form-check-label" for="credit">Computer Science</label>
+						</div>
+						<div class="form-check col-md-6">
+							<input type="radio" class="form-check-input" id="major"
+								name="major" value="Computer Technology" required> <label
+								class="form-check-label" for="debit">Computer Technology</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<label for="email" class="form-label">Email</label> <input
+						type="email" class="form-control" id="email" name="email"
+						placeholder="you@example.com">
+				</div>
+
+				<div class="col-8">
+					<label for="address" class="form-label">Address</label> <input
+						type="text" class="form-control" id="address" name="address"
+						placeholder="1234 Main St" required>
+				</div>
+
+				<div class="col-md-4">
+					<label for="town" class="form-label">Township</label> <select
+						class="form-select" id="town" name="town" required>
+						<option value="town">Choose...</option>
+						<option>Maubin</option>
+						<option>Nyaungdon</option>
+						<option>Kyaiklat</option>
+						<option>Pyapon</option>
+					</select>
+				</div>
+
+				<label for="subject" class="form-label">Subjects <span
+					class="text-muted">(Optional)</span></label>
+				<div class="col-md-4">
+					<div class="form-check">
+						<input type="checkbox" name="subject" class="form-check-input"
+							id="subject" value="English"> <label
+							class="form-check-label" for="subject">English</label>
+					</div>
+					<div class="form-check">
+						<input type="checkbox" name="subject" class="form-check-input"
+							id="subject" value="Math"> <label
+							class="form-check-label" for="subject">Math</label>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-check">
+						<input type="checkbox" name="subject" class="form-check-input"
+							id="subject" value="J2EE"> <label
+							class="form-check-label" for="subject">J2EE</label>
+					</div>
+					<div class="form-check">
+						<input type="checkbox" name="subject" class="form-check-input"
+							id="subject" value="Software Enginnering"> <label
+							class="form-check-label" for="subject">Software
+							Engineering</label>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-check">
+						<input type="checkbox" name="subject" class="form-check-input"
+							id="subject" value="JavaScript"> <label
+							class="form-check-label" for="subject">JavaScript</label>
+					</div>
+					<div class="form-check">
+						<input type="checkbox" name="subject" class="form-check-input"
+							id="subject" value="Arduino"> <label
+							class="form-check-label" for="subject">Arduino</label>
+					</div>
+				</div>
+				<hr class="my-4">
+			</div>
+			<button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+		</form>
+	</div>
+
+	<script src="/StuReg/BOOTSTRAP/bootstrap.min.css"></script>
+</body>
+</html>
