@@ -1,0 +1,56 @@
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\bin\Debug\Employee.mdf
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\bin\Debug\Employee_log.ldf
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\bin\Debug\Employee.exe
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\bin\Debug\Employee.pdb
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.Properties.Resources.resources
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.csproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.pdb
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.Update_Employee.resources
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.Delete_Employee.resources
+C:\Users\ASUS\Desktop\C#Lecture\Employee\Employee\obj\Debug\Employee.Insert.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.pdb
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\bin\Debug\Employee.mdf
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\bin\Debug\Employee_log.ldf
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\bin\Debug\Employee.exe
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\bin\Debug\Employee.pdb
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.Delete_Employee.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.Insert.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.Properties.Resources.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.Update_Employee.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.csproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\obj\Debug\Employee.Click.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.pdb
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\bin\Debug\Employee.mdf
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\bin\Debug\Employee_log.ldf
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\bin\Debug\Employee.exe
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\bin\Debug\Employee.pdb
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.Click.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.Delete_Employee.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.Properties.Resources.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.Update_Employee.resources
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.csproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\C#Lecture\Window Form Application\Employee\Employee\Employee\obj\Debug\Employee.InsertEmp.resources
+D:\Project\Employee\Employee\bin\Debug\Employee.mdf
+D:\Project\Employee\Employee\bin\Debug\Employee_log.ldf
+D:\Project\Employee\Employee\bin\Debug\Employee.exe.config
+D:\Project\Employee\Employee\bin\Debug\Employee.exe
+D:\Project\Employee\Employee\bin\Debug\Employee.pdb
+D:\Project\Employee\Employee\obj\Debug\Employee.csproj.AssemblyReference.cache
+D:\Project\Employee\Employee\obj\Debug\Employee.Click.resources
+D:\Project\Employee\Employee\obj\Debug\Employee.Delete_Employee.resources
+D:\Project\Employee\Employee\obj\Debug\Employee.InsertEmp.resources
+D:\Project\Employee\Employee\obj\Debug\Employee.Properties.Resources.resources
+D:\Project\Employee\Employee\obj\Debug\Employee.Update_Employee.resources
+D:\Project\Employee\Employee\obj\Debug\Employee.csproj.GenerateResource.cache
+D:\Project\Employee\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache
+D:\Project\Employee\Employee\obj\Debug\Employee.exe
+D:\Project\Employee\Employee\obj\Debug\Employee.pdb
