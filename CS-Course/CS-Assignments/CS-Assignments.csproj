@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="AssiOne\No_1.cs" />
     <Compile Include="AssiOne\No_2.cs" />
+    <Compile Include="AssiTwo\No_1.cs" />
+    <Compile Include="AssiTwo\No_2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

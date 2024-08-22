@@ -4,3 +4,6 @@ D:\UCS - MUB\CS-Course\CS-Assignments\obj\Debug\CS-Assignments.csproj.AssemblyRe
 D:\UCS - MUB\CS-Course\CS-Assignments\obj\Debug\CS-Assignments.csproj.CoreCompileInputs.cache
 D:\UCS - MUB\CS-Course\CS-Assignments\obj\Debug\CS_Assignments.exe
 D:\UCS - MUB\CS-Course\CS-Assignments\obj\Debug\CS_Assignments.pdb
+D:\UCS - MUB\CS-Course\CS-Assignments\bin\Debug\System.Data.SqlClient.dll
+D:\UCS - MUB\CS-Course\CS-Assignments\bin\Debug\System.Data.SqlClient.xml
+D:\UCS - MUB\CS-Course\CS-Assignments\obj\Debug\CS-Assig.B1566999.Up2Date

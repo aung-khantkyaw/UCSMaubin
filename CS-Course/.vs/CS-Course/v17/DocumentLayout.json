@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\UCS - MUB\\CS-Course\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|d:\\ucs - mub\\cs-course\\studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|solutionrelative:studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|d:\\ucs - mub\\cs-course\\cs-assignments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|solutionrelative:cs-assignments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|D:\\UCS - MUB\\CS-Course\\studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|solutionrelative:studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|d:\\ucs - mub\\cs-course\\cs-assignments\\assitwo\\no_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|solutionrelative:cs-assignments\\assitwo\\no_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|d:\\ucs - mub\\cs-course\\studentrecordform\\studentrecordform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|solutionrelative:studentrecordform\\studentrecordform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|d:\\ucs - mub\\cs-course\\cs-assignments\\assitwo\\no_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|solutionrelative:cs-assignments\\assitwo\\no_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|d:\\ucs - mub\\cs-course\\cs-assignments\\assione\\no_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|solutionrelative:cs-assignments\\assione\\no_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|d:\\ucs - mub\\cs-course\\cs-assignments\\assione\\no_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5310E6-2A83-4A09-8F79-8A852E681DCA}|CS-Assignments\\CS-Assignments.csproj|solutionrelative:cs-assignments\\assione\\no_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\Form1.cs",
-              "RelativeDocumentMoniker": "StudentRecordForm\\Form1.cs",
-              "ToolTip": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\Form1.cs",
-              "RelativeToolTip": "StudentRecordForm\\Form1.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCsAAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "No_2.cs",
+              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiTwo\\No_2.cs",
+              "RelativeDocumentMoniker": "CS-Assignments\\AssiTwo\\No_2.cs",
+              "ToolTip": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiTwo\\No_2.cs",
+              "RelativeToolTip": "CS-Assignments\\AssiTwo\\No_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T11:14:43Z",
+              "WhenOpened": "2024-08-22T16:28:39.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\Form1.cs",
-              "RelativeDocumentMoniker": "StudentRecordForm\\Form1.cs",
-              "ToolTip": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\Form1.cs [Design]",
-              "RelativeToolTip": "StudentRecordForm\\Form1.cs [Design]",
+              "Title": "No_1.cs",
+              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiTwo\\No_1.cs",
+              "RelativeDocumentMoniker": "CS-Assignments\\AssiTwo\\No_1.cs",
+              "ToolTip": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiTwo\\No_1.cs",
+              "RelativeToolTip": "CS-Assignments\\AssiTwo\\No_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T11:14:28.046Z"
+              "WhenOpened": "2024-08-22T15:14:57.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentRecordForm.csproj",
-              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\StudentRecordForm.csproj",
-              "RelativeDocumentMoniker": "StudentRecordForm\\StudentRecordForm.csproj",
-              "ToolTip": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\StudentRecordForm.csproj",
-              "RelativeToolTip": "StudentRecordForm\\StudentRecordForm.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-05T11:14:17.075Z"
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\Program.cs",
+              "RelativeDocumentMoniker": "CS-Assignments\\Program.cs",
+              "ToolTip": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\Program.cs",
+              "RelativeToolTip": "CS-Assignments\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDoAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:13:55.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "No_2.cs",
+              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiOne\\No_2.cs",
+              "RelativeDocumentMoniker": "CS-Assignments\\AssiOne\\No_2.cs",
+              "ToolTip": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiOne\\No_2.cs",
+              "RelativeToolTip": "CS-Assignments\\AssiOne\\No_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:13:41.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "No_1.cs",
+              "DocumentMoniker": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiOne\\No_1.cs",
+              "RelativeDocumentMoniker": "CS-Assignments\\AssiOne\\No_1.cs",
+              "ToolTip": "D:\\UCS - MUB\\CS-Course\\CS-Assignments\\AssiOne\\No_1.cs",
+              "RelativeToolTip": "CS-Assignments\\AssiOne\\No_1.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA8wDAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:13:36.146Z",
+              "EditorCaption": ""
             }
           ]
         }
