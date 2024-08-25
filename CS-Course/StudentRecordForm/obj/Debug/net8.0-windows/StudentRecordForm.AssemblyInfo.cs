@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentRecordForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1e6dfb729c7593c86b3bd35d9afe9220a3a9fb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5c086e6e6c301f8f3e2825b78ccd7ab25f5a9db")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentRecordForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentRecordForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

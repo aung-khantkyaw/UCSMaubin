@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResultForm", "ResultForm\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items", "Items\Items.csproj", "{A2C6F873-8D8E-4706-88FB-A669D4826B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRecordForm", "StudentRecordForm\StudentRecordForm.csproj", "{AC98DBB5-3457-411D-BE91-89AA0E61BA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentRecordForm", "StudentRecordForm\StudentRecordForm.csproj", "{AC98DBB5-3457-411D-BE91-89AA0E61BA23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTest", "LabTest\LabTest.csproj", "{93B56FAC-E5BF-4043-AF49-0347E642F28C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{AC98DBB5-3457-411D-BE91-89AA0E61BA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC98DBB5-3457-411D-BE91-89AA0E61BA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC98DBB5-3457-411D-BE91-89AA0E61BA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B56FAC-E5BF-4043-AF49-0347E642F28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B56FAC-E5BF-4043-AF49-0347E642F28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B56FAC-E5BF-4043-AF49-0347E642F28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B56FAC-E5BF-4043-AF49-0347E642F28C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
