@@ -39,6 +39,7 @@
             btnSave = new Button();
             btnUpdateAndDelete = new Button();
             btnExit = new Button();
+            btnShow = new Button();
             SuspendLayout();
             // 
             // cboBrandName
@@ -127,7 +128,7 @@
             // btnUpdateAndDelete
             // 
             btnUpdateAndDelete.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnUpdateAndDelete.Location = new Point(507, 106);
+            btnUpdateAndDelete.Location = new Point(507, 141);
             btnUpdateAndDelete.Name = "btnUpdateAndDelete";
             btnUpdateAndDelete.Size = new Size(177, 35);
             btnUpdateAndDelete.TabIndex = 9;
@@ -138,7 +139,7 @@
             // btnExit
             // 
             btnExit.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(507, 176);
+            btnExit.Location = new Point(507, 211);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(177, 35);
             btnExit.TabIndex = 10;
@@ -146,11 +147,23 @@
             btnExit.UseVisualStyleBackColor = true;
             btnExit.Click += btnExit_Click;
             // 
+            // btnShow
+            // 
+            btnShow.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnShow.Location = new Point(507, 71);
+            btnShow.Name = "btnShow";
+            btnShow.Size = new Size(177, 35);
+            btnShow.TabIndex = 11;
+            btnShow.Text = "Show";
+            btnShow.UseVisualStyleBackColor = true;
+            btnShow.Click += btnShow_Click;
+            // 
             // MobileSalesEntry
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnShow);
             Controls.Add(btnExit);
             Controls.Add(btnUpdateAndDelete);
             Controls.Add(btnSave);
@@ -181,5 +194,6 @@
         private Button btnSave;
         private Button btnUpdateAndDelete;
         private Button btnExit;
+        private Button btnShow;
     }
 }

@@ -41,6 +41,7 @@
             label5 = new Label();
             btnUpdate = new Button();
             btnDelete = new Button();
+            btnShow = new Button();
             SuspendLayout();
             // 
             // btnBack
@@ -142,7 +143,7 @@
             // btnUpdate
             // 
             btnUpdate.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnUpdate.Location = new Point(214, 382);
+            btnUpdate.Location = new Point(327, 382);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(75, 35);
             btnUpdate.TabIndex = 11;
@@ -161,11 +162,23 @@
             btnDelete.UseVisualStyleBackColor = true;
             btnDelete.Click += btnDelete_Click;
             // 
+            // btnShow
+            // 
+            btnShow.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnShow.Location = new Point(212, 382);
+            btnShow.Name = "btnShow";
+            btnShow.Size = new Size(75, 31);
+            btnShow.TabIndex = 13;
+            btnShow.Text = "Show";
+            btnShow.UseVisualStyleBackColor = true;
+            btnShow.Click += btnShow_Click;
+            // 
             // UpdateAndDelete
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnShow);
             Controls.Add(btnDelete);
             Controls.Add(btnUpdate);
             Controls.Add(label5);
@@ -200,5 +213,6 @@
         private Label label5;
         private Button btnUpdate;
         private Button btnDelete;
+        private Button btnShow;
     }
 }

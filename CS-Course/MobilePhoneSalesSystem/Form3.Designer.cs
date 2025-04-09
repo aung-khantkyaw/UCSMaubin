@@ -29,22 +29,35 @@
         private void InitializeComponent()
         {
             dataGridViewSalesReport = new DataGridView();
+            btnBack = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewSalesReport).BeginInit();
             SuspendLayout();
             // 
             // dataGridViewSalesReport
             // 
             dataGridViewSalesReport.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewSalesReport.Location = new Point(12, 12);
+            dataGridViewSalesReport.Location = new Point(12, 53);
             dataGridViewSalesReport.Name = "dataGridViewSalesReport";
-            dataGridViewSalesReport.Size = new Size(776, 426);
+            dataGridViewSalesReport.Size = new Size(776, 385);
             dataGridViewSalesReport.TabIndex = 0;
+            // 
+            // btnBack
+            // 
+            btnBack.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBack.Location = new Point(12, 12);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(75, 35);
+            btnBack.TabIndex = 1;
+            btnBack.Text = "Back";
+            btnBack.UseVisualStyleBackColor = true;
+            btnBack.Click += btnBack_Click;
             // 
             // ViewSalesReport
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnBack);
             Controls.Add(dataGridViewSalesReport);
             Name = "ViewSalesReport";
             Text = "View Sales Report";
@@ -56,5 +69,6 @@
         #endregion
 
         private DataGridView dataGridViewSalesReport;
+        private Button btnBack;
     }
 }

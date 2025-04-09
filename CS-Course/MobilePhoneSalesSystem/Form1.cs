@@ -4,7 +4,7 @@ namespace MobilePhoneSalesSystem
 {
     public partial class MobileSalesEntry : Form
     {
-        public string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\DELL\\Documents\\MobilePhoneSales.mdf;Integrated Security=True;Connect Timeout=30";
+        public string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\DELL\\Documents\\MobilePhoneSales.mdf;Integrated Security=True;";
 
         public MobileSalesEntry()
         {
@@ -13,17 +13,31 @@ namespace MobilePhoneSalesSystem
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            if (cboBrandName.Text != "" && cboModel.Text != "" && txtPrice.Text != "" && txtQuantity.Text != "")
             {
-                string query = "INSERT INTO SalesInfo (BrandName, Model, Price, Quantity) VALUES ('" + cboBrandName.Text + "' , '" + cboModel.Text + "' , '" + Convert.ToDecimal(txtPrice.Text) + "' , '" + Convert.ToInt32(txtQuantity.Text) + "')";
-                SqlCommand cmd = new SqlCommand(query, conn);
+                SqlConnection conn = new SqlConnection(connectionString);
                 conn.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Record Saved Successfully");
-                cboBrandName.Text = "";
-                cboModel.Text = "";
-                txtPrice.Text = "";
-                txtQuantity.Text = "";
+                try
+                {
+                    string query = "INSERT INTO SalesInfo (BrandName, Model, Price, Quantity) VALUES ('" + cboBrandName.Text + "' , '" + cboModel.Text + "' , '" + Convert.ToDecimal(txtPrice.Text) + "' , '" + Convert.ToInt32(txtQuantity.Text) + "')";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Record Saved Successfully");
+
+                    cboBrandName.Text = "";
+                    cboModel.Text = "";
+                    txtPrice.Text = "";
+                    txtQuantity.Text = "";
+                }
+                catch (SqlException exp)
+                {
+                    MessageBox.Show(exp.Message);
+                }
+                conn.Close();
+            }
+            else 
+            {
+                MessageBox.Show("Please check your data!");
             }
         }
 
@@ -54,6 +68,13 @@ namespace MobilePhoneSalesSystem
             }
         }
 
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            ViewSalesReport viewSalesReport = new ViewSalesReport();
+            viewSalesReport.Show();
+            this.Hide();
+        }
+
         private void btnUpdateAndDelete_Click(object sender, EventArgs e)
         {
             UpdateAndDelete updateAndDeleteForm = new UpdateAndDelete();
@@ -65,7 +86,5 @@ namespace MobilePhoneSalesSystem
         {
             Application.Exit();
         }
-
-        
     }
 }

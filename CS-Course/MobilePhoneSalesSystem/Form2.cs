@@ -13,7 +13,7 @@ namespace MobilePhoneSalesSystem
 {
     public partial class UpdateAndDelete : Form
     {
-        public string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\DELL\\Documents\\MobilePhoneSales.mdf;Integrated Security=True;Connect Timeout=30";
+        public string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\DELL\\Documents\\MobilePhoneSales.mdf;Integrated Security=True;";
         public UpdateAndDelete()
         {
             InitializeComponent();
@@ -28,28 +28,32 @@ namespace MobilePhoneSalesSystem
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                string query = "UPDATE SalesInfo SET BrandName = '" + txtBrandName.Text + "', Model = '" + txtModel.Text + "', Price = '" + Convert.ToDecimal(txtPrice.Text) + "', Quantity = '" + Convert.ToInt32(txtQuantity.Text) + "' WHERE SaleID = '" + Convert.ToInt32(txtSaleID.Text) + "'";
-                SqlCommand cmd = new SqlCommand(query, conn);
-
-                conn.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Record Updated Successfully");
-            }
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
+            string query = "UPDATE SalesInfo SET BrandName = '" + txtBrandName.Text + "', Model = '" + txtModel.Text + "', Price = '" + Convert.ToDecimal(txtPrice.Text) + "', Quantity = '" + Convert.ToInt32(txtQuantity.Text)
+                    + "' WHERE SaleID = '" + Convert.ToInt32(txtSaleID.Text) + "'";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Record Updated Successfully");
+            conn.Close();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                string query = "DELETE FROM SalesInfo WHERE SaleID = '" + Convert.ToInt32(txtSaleID.Text) + "'";
-                SqlCommand cmd = new SqlCommand(query, conn);
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
+            string query = "DELETE FROM SalesInfo WHERE SaleID = '" + Convert.ToInt32(txtSaleID.Text) + "'";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Record Deleted Successfully");
+            conn.Close();
+        }
 
-                conn.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Record Deleted Successfully");
-            }
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            ViewSalesReport viewSalesReport = new ViewSalesReport();
+            viewSalesReport.Show();
+            this.Hide();
         }
     }
 }
