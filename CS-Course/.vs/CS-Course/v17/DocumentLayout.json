@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|solutionrelative:studentrecordform\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|d:\\ucs - mub\\cs-course\\studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|D:\\UCS - MUB\\CS-Course\\studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AC98DBB5-3457-411D-BE91-89AA0E61BA23}|StudentRecordForm\\StudentRecordForm.csproj|solutionrelative:studentrecordform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -47,8 +47,11 @@
               "RelativeToolTip": "StudentRecordForm\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T12:44:26.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T12:44:26.536Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -59,8 +62,7 @@
               "ToolTip": "D:\\UCS - MUB\\CS-Course\\StudentRecordForm\\Form1.cs [Design]",
               "RelativeToolTip": "StudentRecordForm\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T12:44:05.808Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-08T12:44:05.808Z"
             }
           ]
         }
