@@ -1,0 +1,184 @@
+import 'package:flutter/material.dart';
+import 'package:chatapp_firebase/farming/post_data/view/widgets/post_card.dart';
+import 'package:chatapp_firebase/farming/post_data/model/comment_model.dart';
+import 'package:chatapp_firebase/farming/post_data/model/post_model.dart';
+import 'package:chatapp_firebase/farming/post_data/model/user_model.dart';
+import 'package:chatapp_firebase/farming/views/ngadan.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+const String _url = 'http://103.47.184.69:81/post-categories/38';
+
+void _launchURL() async {
+  if (!await launch(_url)) throw 'Could not launch $_url';
+}
+class PostNgaDanPage3 extends StatelessWidget {
+  const PostNgaDanPage3({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) {
+              return NgaDanPage();
+            }));
+
+
+          },
+          icon: Icon(Icons.arrow_back_ios_new),
+        ),
+        title: Text("ငါးကန်တူးဖော်ခြင်း"),
+
+      ),
+      body: ListView.builder(
+        itemCount: DemoValues.posts.length,
+        itemBuilder: (BuildContext context, int index) {
+          return PostCard(postData: DemoValues.posts[index]);
+        },
+      ),
+      floatingActionButton: const FloatingActionButton.extended(
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        onPressed: _launchURL,
+        label: Text('See More'),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+
+    );
+  }
+}
+
+class DemoValues {
+  static final List<UserModel> users = [
+    UserModel(
+      id: "1",
+      name: "မောင်ညဏ်ကြီး",
+      //email: "mgnyan@gmail.com",
+      email: "မြင်းခြံကြီး",
+      image: "assets/images/cus1.jpg",
+      followers: 123,
+      joined: DateTime(2022, 11, 11),
+      posts: 12,
+    ),
+    UserModel(
+      id: "2",
+      name: "ခင်ခင်ကြည်",
+      //email: "iskyi@gmail.com",
+      email: "တောင်ကြီး",
+      image: "assets/images/cus2.jpg",
+      followers: 456,
+      joined: DateTime(2022, 10, 11),
+      posts: 13,
+    ),
+    UserModel(
+      id: "3",
+      name: "ဦးမင်းခန့်ကျော်",
+      //email: "shakleen@gmail.com",
+      email: "ကိုးပြား",
+      image: "assets/images/cus3.jpg",
+      followers: 789,
+      joined: DateTime(2022, 11, 24),
+      posts: 14,
+    ),
+    UserModel(
+      id: "4",
+      name: "ကိုဗလ",
+      //email: "shakleen@gmail.com",
+      email: "အရှေ့မိုးညှင်း",
+      image: "assets/images/cus4.jpg",
+      followers: 789,
+      joined: DateTime(2022, 11, 24),
+      posts: 14,
+    ),
+    UserModel(
+      id: "5",
+      name: "ဦးနီ",
+      //email: "shakleen@gmail.com",
+      email: "ရေလဲ",
+      image: "assets/images/cus5.jpg",
+      followers: 789,
+      joined: DateTime(2022, 11, 24),
+      posts: 14,
+    ),
+    UserModel(
+      id: "6",
+      name: "ဘုတ်ဆုံ",
+      //email: "shakleen@gmail.com",
+      email: "ကန်ပိုင်ရှင်",
+      image: "assets/images/cus6.jpg",
+      followers: 789,
+      joined: DateTime(2022, 11, 24),
+      posts: 14,
+    ),
+  ];
+
+  static final List<CommentModel> _comments = <CommentModel>[
+    CommentModel(
+      comment:
+      "Thank you",
+      user: users[0],
+      time: DateTime(2022, 11, 28),
+    ),
+    CommentModel(
+      comment: "ကျေးဇူးပါ။ ",
+      user: users[1],
+      time: DateTime(2022, 11, 28),
+    ),
+
+
+
+    CommentModel(
+      comment: "ကျေးဇူးပါ။ ",
+      user: users[4],
+      time: DateTime(2022, 11, 29),
+    ),
+    CommentModel(
+      comment: "ကျေးဇူးတင်ပါတယ်ဗျ။ ",
+      user: users[5],
+      time: DateTime(2022, 11, 29),
+    ),
+
+  ];
+
+  static final List<PostModel> posts = [
+    PostModel(
+      id: "3",
+      author: users[0],
+      title: "Fish",
+      summary: """မြေကန်တူးခြင်း..""",
+      body: """မြေကန်တွင်မွေးမြူခြင်း
+
+သာမန်အားဖြင့် ၁၀၀၀ မှ ၁၀၀၀၀ စတုရန်းမီတာ (၀.၂၅ မှ ၂.၅ ဧက) အရွယ်ကန်များဖြင့် မြစ်ချောင်းငယ်များ၏ အနီးအနားတွင် မွေးမြူကြသည်။ နေ့စဉ် ရေသွင်းရေထုတ်ခြင်းကို ဒီရေအတက်အကျဖြင့်သော်လည်းကောင်း၊ ရေပန့်ဖြင့်သော်လည်းကောင်း ပြုလုပ်သည်။ လေပေးစက်ကိုလည်း နေ့စဉ်အချိန်ကြာကြာ မောင်းပေးသည်။
+Ref: GreenWayMyanmar
+ """,
+
+      imageURL: "assets/images/post_ngadan11.jpg",
+      postTime: DateTime(2022, 11, 25),
+      reacts: 13,
+      views: 45,
+      comments: _comments,
+    ),
+    PostModel(
+      id: "2",
+      author: users[1],
+      title: "Fish",
+      summary: """ပိုက်ဖြင့် ခြံခတ်မွေးမြူခြင်း.. """,
+      body: """
+
+ပိုက်ဖြင့် ခြံခတ်မွေးမြူခြင်း
+
+တစ်စတုရန်းမီတာလျှင် ကောင်ရေ (၄၀-၆၀) အထိမွေးသည်။ (တစ်နည်းအားဖြင့် တစ်ဟက်တာလျှင် ကောင်ရေ (၄၀၀,၀၀၀-၆၀၀,၀၀၀) အထိမွေးသည်။ ထုတ်လုပ်မှုအနေဖြင့် ရေပြင်ဧရိယာ တစ်ဟက်တာမှ တစ်ကြိမ်ငါးဖော်လျှင် ငါးကုန်ချိန် (၃၀၀-၃၅၀) တန်အထိရရှိသည်။
+
+Ref: GreenwayMyanmar
+""",
+      imageURL: "assets/images/post_ngadan14.jpg",
+      postTime: DateTime(2022, 11, 25),
+      reacts: 30,
+      views: 65,
+      comments: _comments,
+    ),
+
+  ];
+}

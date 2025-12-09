@@ -1,0 +1,777 @@
+name: chatapp_firebase
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  cloud_firestore: ^4.3.2
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.2.6
+  get: ^4.6.1
+  firebase_core: ^2.5.0
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  shared_preferences: ^2.0.17
+  url_launcher: ^6.1.9
+  splash_screen_view: ^3.0.0
+
+
+dev_dependencies:
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.11.0
+
+
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/logo.png
+    - assets/farmer.jpg
+    - assets/cp.jpg
+    - assets/far.jpg
+    - assets/crop.jpg
+    - assets/fruit.jpg
+    - assets/bean.jpg
+    - assets/millet.jpg
+    - assets/oil.jpg
+    - assets/plant.jpg
+    - assets/jute.jpg
+    - assets/veg.jpg
+    - assets/fish.jpg
+    - assets/maize.jpg
+
+    - assets/bean.jpg
+    - assets/s1.jpg
+    - assets/s2.jpg
+    - assets/s3.jpg
+    - assets/s4.jpg
+    - assets/s5.jpg
+    - assets/s6.jpg
+    - assets/s7.jpg
+    - assets/s8.jpg
+    - assets/s9.jpg
+    - assets/s10.jpg
+    - assets/s11.jpg
+    - assets/c1.jpg
+    - assets/c2.jpg
+    - assets/c3.jpg
+    - assets/c4.jpg
+    - assets/c5.jpg
+    - assets/c6.jpg
+    - assets/c7.jpg
+    - assets/c8.jpg
+    - assets/c9.jpg
+    - assets/c10.jpg
+    - assets/j1.jpg
+    - assets/j2.jpg
+    - assets/j3.jpg
+    - assets/j4.jpg
+    - assets/j5.jpg
+    - assets/j6.jpg
+    - assets/j7.jpg
+    - assets/j8.jpg
+    - assets/j9.jpg
+    - assets/j10.jpg
+    - assets/b1.jpg
+    - assets/b2.jpg
+    - assets/b3.jpg
+    - assets/b4.jpg
+    - assets/w1.jpg
+    - assets/w2.jpg
+    - assets/w3.jpg
+    - assets/w4.jpg
+    - assets/w5.jpg
+    - assets/t1.jpg
+    - assets/t2.jpg
+    - assets/t3.jpg
+
+    - assets/se3.jpg
+    - assets/se4.jpg
+    - assets/se5.jpg
+    - assets/pe1.jpg
+    - assets/pe4.jpg
+    - assets/pe5.jpg
+    - assets/sf1.jpg
+    - assets/sf2.jpg
+    - assets/sf3.jpg
+    - assets/sf4.jpg
+    - assets/se11.jpg
+    - assets/se22.jpg
+    - assets/pe22.jpg
+    - assets/pe33.jpg
+    - assets/mp1.jpg
+    - assets/mp2.jpg
+    - assets/mp3.jpg
+    - assets/pts1.jpg
+    - assets/pts2.jpg
+    - assets/pts3.jpg
+    - assets/klp1.jpg
+    - assets/klp2.jpg
+    - assets/klp3.jpg
+    - assets/klp4.jpg
+    - assets/hs.jpg
+    - assets/hs1.jpg
+    - assets/hs3.jpg
+    - assets/hs4.jpg
+    - assets/ga1.jpg
+    - assets/ga2.jpg
+    - assets/ga3.jpg
+    - assets/ga4.jpg
+    - assets/ny1.jpg
+    - assets/ny2.jpg
+    - assets/ny3.jpg
+    - assets/ny4.jpg
+    - assets/tmt1.jpg
+    - assets/tmt2.jpg
+    - assets/tm3.jpg
+    - assets/tm4.jpg
+    - assets/tk1.jpg
+    - assets/tk2.jpg
+    - assets/tk3.jpg
+    - assets/tk4.jpg
+    - assets/oc1.jpg
+    - assets/oc2.jpg
+    - assets/oc3.jpg
+    - assets/oc4.jpg
+    - assets/ypt1.jpg
+    - assets/ypt2.jpg
+    - assets/ypt3.jpg
+    - assets/ypt4.jpg
+    - assets/gb1.jpg
+    - assets/gb2.jpg
+    - assets/gb3.jpg
+    - assets/gb4.jpg
+    - assets/cow1.jpg
+    - assets/cow2.jpg
+    - assets/cow3.jpg
+    - assets/cow4.jpg
+    - assets/goat1.jpg
+    - assets/goat2.jpg
+    - assets/goat3.jpg
+    - assets/pig1.jpg
+    - assets/pig2.jpg
+    - assets/pig3.jpg
+    - assets/pig4.jpg
+    - assets/pig5.jpg
+    - assets/hen1.jpg
+    - assets/hen2.jpg
+    - assets/hen3.jpg
+    - assets/hen4.jpg
+    - assets/duck1.jpg
+    - assets/duck2.jpg
+    - assets/duck3.jpg
+    - assets/crops1.jpg
+    - assets/weather1.jpg
+    - assets/fish1.jpg
+    - assets/livestock1.jpg
+    - assets/price1.jpg
+    - assets/tractor.png
+    - assets/calculator1.jpg
+    - assets/dodont1.jpg
+    - assets/qans1.jpg
+    - assets/jute1.jpg
+    - assets/jute2.jpg
+    - assets/jute4.jpg
+    - assets/jute5.jpg
+    - assets/rb1.jpg
+    - assets/rb2.jpg
+    - assets/rb3.jpg
+    - assets/rb4.jpg
+    - assets/cane1.jpg
+    - assets/cane2.jpg
+    - assets/cane3.jpg
+    - assets/yam1.jpg
+    - assets/yam2.jpg
+    - assets/yam3.jpg
+    - assets/yam5.jpg
+    - assets/flower1.jpg
+    - assets/ve1.jpg
+    - assets/cow.jpg
+    - assets/goat.jpg
+    - assets/pig.jpg
+    - assets/hen.jpg
+    - assets/duck.jpg
+    - assets/cowlogo.jpg
+    - assets/changtha.png
+    - assets/animallogo.jpg
+    - assets/ngagyin.jpg
+    - assets/ngashint.jpg
+    - assets/ngaku.jpg
+    - assets/ngadan.jpg
+    - assets/ngayar.jpg
+    - assets/shwewar.jpg
+    - assets/fishlo.jpg
+    - assets/ngakan1.jpg
+    - assets/ngakan2.jpg
+    - assets/ngakan3.jpg
+    - assets/ngakan.jpg
+    - assets/ngakan5.jpg
+    - assets/ngakan5.jpg
+    - assets/ngakan6.jpg
+    - assets/shwewar1.jpg
+    - assets/shwewar2.jpg
+    - assets/shwewar3.jpg
+    - assets/e1.png
+    - assets/e5.png
+    - assets/e2.jpg
+    - assets/e33.jpg
+    - assets/e4.jpg
+    - assets/e6.jpg
+    - assets/ngakhu1.jpg
+    - assets/ngakhu2.jpg
+    - assets/ngaku3.jpg
+    - assets/ngadan1.jpg
+    - assets/ngadan2.jpg
+    - assets/ngadan3.jpg
+    - assets/ngagyin1.jpg
+    - assets/ngagyin2.jpg
+    - assets/ngagyin3.jpg
+    - assets/ngashint1.jpg
+    - assets/ngashint2.jpg
+    - assets/ngashint3.jpg
+    - assets/ngayar1.jpg
+    - assets/ngayar2.jpg
+    - assets/ngayar3.jpg
+    - assets/apple.jpg
+    - assets/fis.png
+    - assets/fis.jpg
+    - assets/fis1.png
+    - assets/fis2.jpg
+    - assets/fis3.jpg
+    - assets/human.jpg
+    - assets/pi.jpg
+    - assets/pi1.jpg
+    - assets/pi2.jpg
+    - assets/pi3.jpg
+    - assets/rick.jpg
+    - assets/rick0.jpg
+    - assets/rick1.jpg
+    - assets/rick2.jpg
+    - assets/rick3.jpg
+    - assets/images/p1.jpg
+    - assets/images/p2.jpg
+    - assets/images/p3.jpg
+    - assets/images/p4.jpg
+    - assets/images/p5.jpg
+    - assets/images/p6.jpg
+    - assets/images/p7.jpg
+    - assets/images/p8.jpg
+    - assets/images/p9.jpg
+    - assets/images/p10.jpg
+    - assets/images/p11.jpg
+    - assets/images/p12.jpg
+    - assets/images/p13.jpg
+    - assets/images/p14.jpg
+    - assets/images/cus1.jpg
+    - assets/images/cus2.jpg
+    - assets/images/cus3.jpg
+    - assets/images/cus4.jpg
+    - assets/images/cus5.jpg
+    - assets/images/cus6.jpg
+    - assets/images/post_cow1.jpg
+    - assets/images/post_cow2.jpg
+    - assets/images/post_corn1.jpg
+    - assets/images/post_corn2.jpg
+    - assets/images/post_wheat1.jpg
+    - assets/images/post_wheat2.jpg
+    - assets/images/post_banana.jpg
+    - assets/images/post_banana1.jpg
+    - assets/images/post_watermellon1.jpg
+    - assets/images/post_watermellon2.jpg
+    - assets/images/post_muskmellon1.jpg
+    - assets/images/post_muskmellon2.jpg
+    - assets/images/post_jute1.jpg
+    - assets/images/post_jute2.jpg
+    - assets/images/post_rubber1.jpg
+    - assets/images/post_rubber2.jpg
+    - assets/images/post_sesame1.jpg
+    - assets/images/post_sesame2.jpg
+    - assets/images/post_cane1.jpg
+    - assets/images/post_cane2.jpg
+    - assets/images/post_yam1.jpg
+    - assets/images/post_yam2.jpg
+    - assets/images/post_peanut1.jpg
+    - assets/images/post_peanut2.jpg
+    - assets/images/post_sunflower1.jpg
+    - assets/images/post_sunflower2.jpg
+    - assets/images/post_mp1.jpg
+    - assets/images/post_mp2.jpg
+    - assets/images/post_pts1.jpg
+    - assets/images/post_pts2.jpg
+    - assets/images/post_pts3.jpg
+    - assets/images/post_pts4.jpg
+    - assets/images/post_klp1.jpg
+    - assets/images/post_klp2.jpg
+    - assets/images/post_tk1.jpg
+    - assets/images/post_tk2.jpg
+    - assets/images/post_ga1.jpg
+    - assets/images/post_ga2.jpg
+    - assets/images/post_rose1.jpg
+    - assets/images/post_rose2.jpg
+    - assets/images/post_spicy1.jpg
+    - assets/images/post_spicy2.jpg
+    - assets/images/post_tomato1.jpg
+    - assets/images/post_tomato2.jpg
+    - assets/images/post_okra1.jpg
+    - assets/images/post_okra2.jpg
+    - assets/images/post_cabbage1.jpg
+    - assets/images/post_cabbage2.jpg
+    - assets/images/post_ngagyin1.jpg
+    - assets/images/post_ngagyin2.jpg
+    - assets/images/post_ngadan1.jpg
+    - assets/images/post_ngadan2.jpg
+    - assets/images/post_ngashint1.jpg
+    - assets/images/post_ngashint2.jpg
+    - assets/images/post_ngaku1.jpg
+    - assets/images/post_ngaku2.jpg
+    - assets/images/post_shwewar1.jpg
+    - assets/images/post_shwewar2.jpg
+    - assets/images/post_chicken1.jpg
+    - assets/images/post_chicken2.jpg
+    - assets/images/post_pig1.jpg
+    - assets/images/post_pig2.jpg
+    - assets/images/post_duck1.jpg
+    - assets/images/post_duck2.jpg
+    - assets/images/post_goat1.jpg
+    - assets/images/post_goat2.jpg
+    - assets/images/post_rice1.jpg
+    - assets/images/post_rice2.jpg
+    - assets/images/post_rice3.jpg
+    - assets/images/post_rice4.jpg
+    - assets/images/post_rice31.jpg
+    - assets/images/post_rice32.jpg
+    - assets/images/post_rice41.jpg
+    - assets/images/post_rice42.jpg
+    - assets/images/post_rice51.jpg
+    - assets/images/post_rice52.jpg
+    - assets/images/post_rice53.jpg
+    - assets/images/post_rice61.jpg
+    - assets/images/post_rice62.jpg
+    - assets/images/post_corn21.jpg
+    - assets/images/post_corn22.jpg
+    - assets/images/post_corn31.jpg
+    - assets/images/post_corn32.jpg
+    - assets/images/post_corn41.jpg
+    - assets/images/post_corn42.jpg
+    - assets/images/post_corn61.jpg
+    - assets/images/post_corn62.jpg
+    - assets/images/post_wheat21.jpg
+    - assets/images/post_wheat22.jpg
+    - assets/images/post_wheat31.jpg
+    - assets/images/post_wheat41.jpg
+    - assets/images/post_wheat42.jpg
+    - assets/images/post_wheat51.jpg
+    - assets/images/post_wheat52.jpg
+    - assets/images/post_watermellon11.jpg
+    - assets/images/post_watermellon12.jpg
+    - assets/images/post_watermellon13.jpg
+    - assets/images/post_watermellon31.jpg
+    - assets/images/post_watermellon32.jpg
+    - assets/images/post_banana22.jpg
+    - assets/images/post_banana21.jpg
+    - assets/images/post_banana31.jpg
+    - assets/images/post_banana32.jpg
+    - assets/images/post_banana41.jpg
+    - assets/images/post_banana42.jpg
+    - assets/images/post_watermellon41.jpg
+    - assets/images/post_watermellon42.jpg
+    - assets/images/post_muskmelon22.jpg
+    - assets/images/post_muskmelon21.jpg
+    - assets/images/post_muskmelon23.jpg
+    - assets/images/post_muskmellon31.jpg
+    - assets/images/post_sunflower21.jpg
+    - assets/images/post_sunflower22.jpg
+    - assets/images/post_sunflower32.jpg
+    - assets/bound.jpg
+    - assets/images/post_sesame21.jpg
+    - assets/images/post_sesame22.jpg
+    - assets/images/post_sesame31.jpg
+    - assets/images/post_sesame32.jpg
+    - assets/images/post_sesame33.jpg
+    - assets/images/post_sunflower41.jpg
+    - assets/images/post_peanut22.jpg
+    - assets/images/post_peanut23.jpg
+    - assets/images/post_peanut41.jpg
+    - assets/images/post_peanut42.jpg
+    - assets/images/post_rose21.jpg
+    - assets/images/post_rose22.jpg
+    - assets/images/post_rose23.jpg
+    - assets/images/post_rose31.jpg
+    - assets/images/post_rose41.jpg
+    - assets/images/post_rose42.jpg
+    - assets/images/post_rose43.jpg
+    - assets/images/post_ga21.jpg
+    - assets/images/post_ga22.jpg
+    - assets/images/post_ga23.jpg
+    - assets/images/post_ga31.jpg
+    - assets/images/post_ga32.jpg
+    - assets/images/post_sp11.jpg
+    - assets/images/post_sp12.jpg
+    - assets/images/post_sp13.jpg
+    - assets/images/post_sp21.jpg
+    - assets/images/post_sp22.jpg
+    - assets/images/post_mp11.jpg
+    - assets/images/post_mp12.jpg
+    - assets/images/post_mp13.jpg
+    - assets/images/post_mp31.jpg
+    - assets/images/post_mp32.jpg
+    - assets/images/post_mp33.jpg
+    - assets/images/post_pts11.jpg
+    - assets/images/post_pts12.jpg
+    - assets/images/post_pts13.jpg
+    - assets/images/post_mp23.jpg
+    - assets/images/post_pts31.jpg
+    - assets/images/post_pts32.jpg
+    - assets/images/post_klp11.jpg
+    - assets/images/post_klp12.jpg
+    - assets/images/post_klp13.jpg
+    - assets/images/post_klp21.jpg
+    - assets/images/post_klp22.jpg
+    - assets/images/post_klp31.jpg
+    - assets/images/post_klp32.jpg
+    - assets/images/post_klp33.jpg
+    - assets/images/post_cane22.jpg
+    - assets/images/post_cane23.jpg
+    - assets/images/post_ngashint21.jpg
+    - assets/images/post_ngashint31.jpg
+    - assets/images/post_spicy21.jpg
+    - assets/images/post_spicy22.jpg
+    - assets/images/post_spicy23.jpg
+    - assets/images/post_spicy41.jpg
+    - assets/images/post_spicy42.jpg
+    - assets/images/post_spicy43.jpg
+    - assets/images/post_tomato21.jpg
+    - assets/images/post_tomato22.jpg
+    - assets/images/post_tomato23.jpg
+    - assets/images/post_tomato32.jpg
+    - assets/images/post_tomato41.jpg
+    - assets/images/post_tomato42.jpg
+    - assets/images/post_tomato43.jpg
+    - assets/images/post_okra31.jpg
+    - assets/images/post_okra32.jpg
+    - assets/images/post_okra33.jpg
+    - assets/images/post_okra21.jpg
+    - assets/images/post_cabbage21.jpg
+    - assets/images/post_cabbage22.jpg
+    - assets/images/post_cabbage23.jpg
+    - assets/images/post_cabbage41.jpg
+    - assets/images/post_cabbage42.jpg
+    - assets/images/post_cane31.jpg
+    - assets/images/post_cane32.jpg
+    - assets/images/post_cane33.jpg
+    - assets/cane4.jpg
+    - assets/images/post_rubber21.jpg
+    - assets/images/post_jute3.jpg
+    - assets/images/post_jute21.jpg
+    - assets/images/post_jute41.jpg
+    - assets/images/post_yam21.jpg
+    - assets/images/post_yam22.jpg
+    - assets/images/post_yam41.jpg
+    - assets/images/post_yam42.jpg
+    - assets/images/post_yam43.jpg
+    - assets/images/post_ngaku21.jpg
+    - assets/images/post_ngaku22.jpg
+    - assets/images/post_ngaku41.jpg
+    - assets/images/post_ngagyin23.jpg
+    - assets/images/post_ngagyin21.jpg
+    - assets/images/post_ngagyin31.jpg
+    - assets/images/post_ngagyin41.jpg
+    - assets/images/post_ngagyin42.jpg
+    - assets/images/post_shwewar21.jpg
+    - assets/images/post_shwewar31.jpg
+    - assets/images/post_shwewar41.jpg
+    - assets/images/post_shwewar42.jpg
+    - assets/images/post_cow11.jpg
+    - assets/images/post_cow12.jpg
+    - assets/images/post_cow13.jpg
+    - assets/images/post_cow14.jpg
+    - assets/images/post_cow15.jpg
+    - assets/images/post_cow16.jpg
+    - assets/images/post_cow17.jpg
+    - assets/images/post_cow18.jpg
+    - assets/cow4.jpg
+    - assets/images/post_hen11.jpg
+    - assets/images/post_hen12.jpg
+    - assets/images/post_hen13.jpg
+    - assets/images/post_hen14.jpg
+    - assets/images/post_hen15.jpg
+    - assets/images/post_hen16.jpg
+    - assets/images/post_pig11.jpg
+    - assets/images/post_pig12.jpg
+    - assets/images/post_pig13.jpg
+    - assets/images/post_pig14.jpg
+    - assets/images/post_pig15.jpg
+    - assets/images/post_pig16.jpg
+    - assets/images/post_goat11.jpg
+    - assets/images/post_goat12.jpg
+    - assets/images/post_goat13.jpg
+    - assets/images/post_goat14.jpg
+    - assets/images/post_goat5.jpg
+    - assets/images/post_duck11.jpg
+    - assets/images/post_duck12.jpg
+    - assets/images/post_duck13.jpg
+    - assets/images/post_duck14.jpg
+    - assets/images/post_ngayar22.jpg
+    - assets/images/post_ngayar21.jpg
+    - assets/images/post_ngayar11.jpg
+    - assets/images/post_ngayar12.jpg
+    - assets/images/post_ngayar31.jpg
+    - assets/images/post_ngadan11.jpg
+    - assets/images/post_ngadan12.jpg
+    - assets/images/post_ngadan13.jpg
+    - assets/images/post_ngadan14.jpg
+    - assets/dodont/gthreeone.png
+    - assets/dodont/gthreetwo.png
+    - assets/dodont/gthreethree.png
+    - assets/dodont/t1.png
+    - assets/dodont/t2.png
+    - assets/dodont/t3.png
+    - assets/dodont/t4.png
+    - assets/dodont/t5.png
+    - assets/dodont/t6.png
+    - assets/dodont/t7.png
+    - assets/dodont/t8.png
+    - assets/dodont/t9.png
+    - assets/dodont/t10.png
+    - assets/dodont/t11.png
+    - assets/dodont/t12.png
+    - assets/dodont/t13.png
+    - assets/dodont/t14.png
+    - assets/dodont/t15.png
+    - assets/dodont/t17.png
+    - assets/dodont/t18.png
+    - assets/dodont/g1.png
+    - assets/dodont/g2.jpg
+    - assets/dodont/s1.png
+    - assets/dodont/s2.png
+    - assets/dodont/s3.png
+    - assets/dodont/s4.png
+    - assets/dodont/s5.jpg
+    - assets/dodont/s6.jpg
+    - assets/dodont/s7.jpg
+    - assets/dodont/s8.png
+    - assets/dodont/s9.jpg
+    - assets/dodont/s10.png
+    - assets/dodont/s11.png
+    - assets/dodont/s12.jpg
+    - assets/dodont/s13.png
+    - assets/dodont/s14.jpg
+    - assets/dodont/s15.jpg
+    - assets/dodont/f01.png
+    - assets/dodont/f02.png
+    - assets/dodont/f03.png
+    - assets/dodont/f04.png
+    - assets/dodont/f05.gif
+    - assets/dodont/f06.png
+    - assets/dodont/f07.png
+    - assets/dodont/f08.png
+    - assets/dodont/f09.png
+    - assets/dodont/f010.png
+    - assets/dodont/f011.png
+    - assets/dodont/f012.png
+    - assets/dodont/p01.jpg
+    - assets/dodont/p02.jpg
+    - assets/dodont/p03.png
+    - assets/dodont/p04.png
+    - assets/dodont/p05.jpg
+    - assets/dodont/c1.jpg
+    - assets/dodont/c2.jpg
+    - assets/dodont/c3.jpg
+    - assets/dodont/c4.jpg
+    - assets/dodont/c5.jpg
+    - assets/dodont/c6.jpg
+    - assets/dodont/n1.jpg
+    - assets/dodont/n2.jpg
+    - assets/dodont/n3.jpg
+    - assets/dodont/n4.jpg
+    - assets/dodont/n5.png
+    - assets/dodont/n6.jpg
+    - assets/dodont/n7.jpg
+    - assets/dodont/n8.png
+    - assets/dodont/n9.png
+    - assets/dodont/b1.jpg
+    - assets/dodont/b2.jpg
+    - assets/dodont/b3.jpg
+    - assets/dodont/b4.jpg
+    - assets/dodont/b5.jpg
+    - assets/dodont/gt1.png
+    - assets/dodont/gt2.png
+    - assets/dodont/gt3.png
+    - assets/dodont/gt4.png
+    - assets/dodont/gt5.png
+    - assets/dodont/gt6.png
+    - assets/dodont/gt7.png
+    - assets/dodont/gt8.png
+    - assets/dodont/gt9.png
+    - assets/dodont/gt10.png
+    - assets/dodont/gt11.png
+    - assets/dodont/gt12.png
+    - assets/dodont/gt13.png
+    - assets/dodont/gt14.png
+    - assets/dodont/gt15.png
+    - assets/dodont/gt16.png
+    - assets/dodont/gt17.png
+    - assets/dodont/gt18.png
+    - assets/dodont/gt19.png
+    - assets/dodont/gt20.png
+    - assets/dodont/gt21.png
+    - assets/dodont/gt22.png
+    - assets/dodont/gt23.png
+    - assets/dodont/gt24.png
+    - assets/dodont/gt25.png
+    - assets/dodont/gt26.png
+    - assets/dodont/gt27.png
+    - assets/dodont/gt28.png
+
+    - assets/price/sb.png
+    - assets/price/sbh.png
+    - assets/price/bill.png
+    - assets/price/g.png
+    - assets/price/mana.png
+    - assets/price/mn.png
+    - assets/price/1.png
+    - assets/price/2.png
+    - assets/price/3.png
+    - assets/price/4.png
+    - assets/price/5.png
+    - assets/price/6.png
+    - assets/price/7.1.png
+    - assets/price/8.png
+    - assets/price/9.png
+    - assets/price/10.png
+    - assets/price/11.png
+    - assets/price/12.png
+    - assets/price/14.png
+    - assets/price/15.png
+    - assets/price/16.1.png
+    - assets/price/17.png
+    - assets/price/18.png
+    - assets/price/19.png
+    - assets/price/20.png
+    - assets/price/21.1.png
+    - assets/price/22.png
+    - assets/price/li.png
+    - assets/price/m1.png
+    - assets/price/m2.png
+    - assets/price/m3.png
+    - assets/price/m5.png
+    - assets/price/m6.png
+    - assets/price/m7.png
+    - assets/price/m8.png
+    - assets/price/m9.png
+    - assets/price/m10.png
+    - assets/price/m12.png
+    - assets/price/m13.png
+    - assets/price/m14.png
+    - assets/price/m15.png
+    - assets/price/m16.png
+    - assets/price/d1.png
+    - assets/price/d2.png
+    - assets/price/d3.png
+    - assets/price/g1.png
+    - assets/price/g2.png
+    - assets/price/g3.png
+    - assets/price/g4.png
+    - assets/price/f1.png
+    - assets/price/f2.png
+    - assets/price/f3.png
+    - assets/price/rice.jpg
+    - assets/price/vege.jpg
+    - assets/price/koil.jpg
+    - assets/price/kbean.jpg
+    - assets/price/flower.jpg
+    - assets/price/fish.jpg
+    - assets/price/kfruit.jpg
+    - assets/weather/w1.png
+    - assets/weather/w2.png
+    - assets/weather/w3.png
+    - assets/weather/w4.png
+    - assets/weather/w5.png
+    - assets/weather/w6.png
+    - assets/weather/w7.png
+    - assets/weather/w8.png
+    - assets/weather/w9.png
+    - assets/weather/raining.png
+
+    - assets/industrial/indus1.png
+    - assets/industrial/indus2.png
+    - assets/industrial/indus3.png
+    - assets/industrial/indus4.png
+    - assets/industrial/indus5.png
+    - assets/industrial/indus6.png
+    - assets/industrial/indus7.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/weather/Montserrat-Regular.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: Futura
+      fonts:
+        - asset: assets/weather/LexendDeca-Regular.ttf
+
+
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+splash_screen_view:
+  color: "#ffffff"
+  image: assets/logo.png
